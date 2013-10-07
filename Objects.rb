@@ -44,7 +44,9 @@
   words[1]                          #gets the value at index 1 which is bar
   words.[](1)                       #same 
 
-
+"hello".ljust(30,"*")             #from Lynda puts hello***(until the total length is 30)
+"hello".rjust(30, "*")            #right justified version
+"hello".center(30)                #without the second arg just inserts spaces
 
 
 
