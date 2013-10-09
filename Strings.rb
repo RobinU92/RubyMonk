@@ -44,7 +44,7 @@ puts 'I should look into your problem when I get time'.gsub('I','We')   #Replace
 'RubyMonk Is Pretty Brilliant'.match(/ ./)              #Gets the first character after the first space.  'I'
 'RubyMonk Is Pretty Brilliant'.match(/ ./,9)            #Gets the first character after the first space starting at index 9 "P"
 
-
+#Reviewed 10/9/2003
 
 
 

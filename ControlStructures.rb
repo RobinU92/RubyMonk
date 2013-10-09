@@ -41,7 +41,7 @@
 
   #the ternary operator
   def check_sign(number)
-    number > 0 ? "#{number} is positive" : "#{number} is negative"
+    number > 0 ? "#{number} is positive" : "#{number} is negative"          # conditional ? true : false
   end
   
   #Truthiness of objects in Ruby
@@ -62,6 +62,7 @@
     end
   end  
   
+#Reviewed 10/9/2003
   
 
 
