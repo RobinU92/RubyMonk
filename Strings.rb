@@ -1,3 +1,4 @@
+#Reviewed 10/9/2003
 #String Construction
 "Ruby Monk"
 'Ruby Monk'
@@ -44,7 +45,54 @@ puts 'I should look into your problem when I get time'.gsub('I','We')   #Replace
 'RubyMonk Is Pretty Brilliant'.match(/ ./)              #Gets the first character after the first space.  'I'
 'RubyMonk Is Pretty Brilliant'.match(/ ./,9)            #Gets the first character after the first space starting at index 9 "P"
 
-#Reviewed 10/9/2003
+
+
+###------ More on strings from ruby cookbook
+
+string = 'My first string'
+p string.count'i'  #same as string.count('i')
+
+template = 'this is a %s song'
+p template % 'love'
+
+p 'To 2 decimal places: %.2f' %Math::PI
+p 'Zero-padded: %.5d' %Math::PI
+
+s = 'reverse me if you dare'
+p s.reverse
+
+s.split(/\s+/)                                #["reverse", "me", "if", "you", "dare"]
+s.split(/(\s+)/)                            #["reverse", " ", "me", " ", "if", " ", "you", " ", "dare"]
+
+96.chr
+
+
+symbol_name = "dodechedron"
+p symbol_name.intern.object_id
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
