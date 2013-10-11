@@ -32,3 +32,32 @@
       x.next.next                 
     end
     
+#6.2 Calling a Method
+# Cooperative objects
+  def add(a_number, another_number)
+    a_number + another_number
+  end
+  
+  puts add(1,2)
+  
+  #setting a default parameter
+  
+  def add(a_number, another_number, yet_another_number=1)
+    a_number + another_number + yet_another_number
+  end
+  
+  puts add(1,2)
+  
+  def add(*numbers)
+    numbers.inject(0) { |sum, number| sum + number }
+  end
+  
+  puts add(1)
+  puts add(1, 2)
+  puts add(1, 2, 3)
+  puts add(1, 2, 3, 4)
+  
+  def introduction(age, gender, *names)
+    "Meet #{names.join(' ')}, who's #{age} and #{gender}"
+  end
+    
