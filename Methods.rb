@@ -22,8 +22,7 @@
     puts do_nothing.class         #NilClass
     
     def demonstrate_early_return
-      return
-      puts "You will never see this, because we never get here."
+      return puts "You will never see this, because we never get here."
     end
     
     puts demonstrate_early_return.class     #NilClass
