@@ -61,6 +61,7 @@
     "Meet #{names.join(' ')}, who's #{age} and #{gender}"
   end
   
+  #------------Study----------------------####
   def add(*numbers)
     numbers.inject(0) { |sum, number| sum + number }  
   end
