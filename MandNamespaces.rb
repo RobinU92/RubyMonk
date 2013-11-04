@@ -11,3 +11,5 @@ ruby_array  = Array.new
 
 p our_array.class
 p ruby_array.class
+
+# Reviewed 11/4/2013

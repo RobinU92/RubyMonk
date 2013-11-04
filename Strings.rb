@@ -1,8 +1,13 @@
 #Reviewed 10/9/2003
 #String Construction
-"Ruby Monk"
-'Ruby Monk'
+lang1 ="Ruby Monk"
+lang ='Ruby Monk'
 
+if lang1 == lang
+  puts "Yes"
+else 
+  puts "no"
+end
 #String Length
 'October'.length
 
@@ -69,6 +74,8 @@ s.split(/(\s+)/)                            #["reverse", " ", "me", " ", "if", "
 
 symbol_name = "dodechedron"
 p symbol_name.intern.object_id
+
+# Reviewed 11/4/2013
 
 
 

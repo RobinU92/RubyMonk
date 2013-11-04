@@ -48,9 +48,8 @@
 "hello".rjust(30, "*")            #right justified version
 "hello".center(30)                #without the second arg just inserts spaces
 
-#Reviewed 10/9/2003
-
-
+#Reviewed 10/9/2013
+# Reviewed 11/4/2013
 
 
 

@@ -62,4 +62,6 @@ end
 
 big = Rectangle.new(2,3)
 puts big.perimeter
-puts big.sides
+puts big.sides.inspect
+
+# Reviewed 11/4/2013
