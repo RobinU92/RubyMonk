@@ -1,8 +1,8 @@
 sentence = "Like this and like that and like this and a"
 
-def find_frequency(sent, word)
+def find_frequency(sentence, word)
    arr =[]
-   sent.split(" ").each do |item|
+   sentence.split(" ").each do |item|
      arr << item.downcase
    end
    
@@ -10,3 +10,4 @@ def find_frequency(sent, word)
 end
 
 p find_frequency(sentence, "like")
+
