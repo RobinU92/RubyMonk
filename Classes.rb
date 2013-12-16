@@ -33,7 +33,8 @@
       end
     end
     
-
+brent = Rectangle.new(2,3)
+puts brent.perimeter
 # Reviewed 11/4/2013
   
   
